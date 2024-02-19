@@ -7,4 +7,10 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  get "new", to: "games#new"
+  post "score", to: "games#score"
+
+#   Prefix Verb URI Pattern      Controller#Action
+#    new GET  /new(.:format)   games#new
+#  score POST /score(.:format) games#score
 end

@@ -1,0 +1,14 @@
+.letters-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+}
+
+.letter-square {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(0, 119, 255);
+  margin: 5px;
+  text-align: center;
+  color: white;
+}
